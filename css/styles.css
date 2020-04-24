@@ -1,15 +1,15 @@
 .header{
     text-align: center;
-    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Baloo Tamma 2';
     color: #4FB3A2;
 }
 
 body {
     font-size: 28px;
   }
-  
+
   ul {
-    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Baloo Tamma 2';
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -34,7 +34,7 @@ body {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color:  #0E473F;
   }
   
 p, h2, h3, h4{
