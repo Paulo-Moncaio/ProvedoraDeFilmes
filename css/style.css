@@ -1,0 +1,50 @@
+.header{
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #4FB3A2;
+}
+
+body {
+    font-size: 28px;
+  }
+  
+  ul {
+    font-family: 'Baloo Tamma 2', cursive;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #30544E;
+    /*background-color: #333;*/
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #4FB3A2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+p, h2, h3, h4{
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #4FB3A2;
+}
+  /* Cores
+
+  #0E473F
+  #30615A
+  #1E9484
+  
+  */
