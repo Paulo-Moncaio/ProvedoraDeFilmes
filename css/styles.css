@@ -6,6 +6,7 @@
 
 body {
     font-size: 28px;
+    background-color: #011502;
   }
 
   ul {
@@ -13,9 +14,10 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    background-size: cover;
     overflow: hidden;
-    background-color: #30544E;
-    /*background-color: #333;*/
+    background-color: #224540;
+    /*background-color: #333; #30544E */
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -41,6 +43,8 @@ p, h2, h3, h4{
     font-family: 'Baloo Tamma 2', cursive;
     color: #4FB3A2;
 }
+
+
   /* Cores
 
   #0E473F
