@@ -111,17 +111,24 @@ p, h2, h3, h4{
   resize: none;
 }
 
-.form-contact .submit input{
-  margin: 20px 0;
+.form-contact .submit input,
+.form-contact .voltar a{
+  color: #141011;
+  margin: 10px 0 auto;
   cursor: pointer;
   width: 100px;
   background-color: #1EA789;
   border-radius: 10px;
   padding: 10px;
   font-size: 18px;
+  text-decoration: none;
 }
-.form-contact .submit input:hover{
+.form-contact .submit input:hover,
+.form-contact .voltar a:hover{
   background-color: #28D8B2;
+}
+.form-contact .voltar{
+  margin-top: 10px;
 }
 
 /* Color Theme Swatches in Hex */
