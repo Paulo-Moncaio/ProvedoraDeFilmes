@@ -96,9 +96,9 @@ p, h2, h3, h4{
 .color-theme_yuf_lifesucks-4-hex { color: #168C55; }
 .color-theme_yuf_lifesucks-5-hex { color: #074129; }
 
-/* Color Theme Swatches in RGBA */
-.color-theme_yuf_lifesucks-1-rgba { color: rgba(35, 35, 35, 1); }
-.color-theme_yuf_lifesucks-2-rgba { color: rgba(20, 16, 17, 1); }
-.color-theme_yuf_lifesucks-3-rgba { color: rgba(3, 166, 90, 1); }
-.color-theme_yuf_lifesucks-4-rgba { color: rgba(22, 140, 85, 1); }
-.color-theme_yuf_lifesucks-5-rgba { color: rgba(7, 65, 41, 1); }
+/* Color Theme Swatches in Hex */
+.dark-n-green-1-hex { color: #6585FF; }
+.dark-n-green-2-hex { color: #32373E; }
+.dark-n-green-3-hex { color: #262F3C; }
+.dark-n-green-4-hex { color: #1EA789; }
+.dark-n-green-5-hex { color: #28D8B2; }
