@@ -84,7 +84,7 @@ p, h2, h3, h4{
 
   .form-container h1{
     font-size: 34px;
-    color: ;
+    color: #03A65A;
     padding-bottom: 20px;
     text-align: center;
   }
@@ -102,10 +102,3 @@ p, h2, h3, h4{
 .color-theme_yuf_lifesucks-3-rgba { color: rgba(3, 166, 90, 1); }
 .color-theme_yuf_lifesucks-4-rgba { color: rgba(22, 140, 85, 1); }
 .color-theme_yuf_lifesucks-5-rgba { color: rgba(7, 65, 41, 1); }
-
-/* Color Theme Swatches in HSLA */
-.color-theme_yuf_lifesucks-1-hsla { color: hsla(0, 0, 13, 1); }
-.color-theme_yuf_lifesucks-2-hsla { color: hsla(345, 11, 7, 1); }
-.color-theme_yuf_lifesucks-3-hsla { color: hsla(152, 96, 33, 1); }
-.color-theme_yuf_lifesucks-4-hsla { color: hsla(152, 72, 31, 1); }
-.color-theme_yuf_lifesucks-5-hsla { color: hsla(155, 80, 14, 1); }
