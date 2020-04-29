@@ -3,7 +3,7 @@
     font-family: 'Baloo Tamma 2';
     color: #4FB3A2;
 }
-.menubar{
+.header .menubar{
   font-family: 'Baloo Tamma 2';
   list-style-type: none;
   margin: 0;
@@ -12,7 +12,6 @@
   overflow: hidden;
   background-color: #224540;
   /*background-color: #333; #30544E */
-  position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   border-radius: 10px;
@@ -53,9 +52,16 @@ body {
     background-color:  #0E473F;
   }
   
-p, h2, h3, h4{
+h2, h3, h4{
     font-family: 'Baloo Tamma 2', cursive;
     color: #4FB3A2;
+    text-align: center;
+    margin: 1%;
+    font-weight: 500;
+}
+p{
+  font-family: 'Baloo Tamma 2', cursive;
+  color: #4FB3A2;
 }
 
 
@@ -67,16 +73,17 @@ p, h2, h3, h4{
   
   */
 
-/* index.html cards */
-
+/* Cards */
 .column{
   float: left;
   width: 33.3%;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
 .row {
   margin: 0 -5px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .row:after{
   content: "";
@@ -97,10 +104,10 @@ p, h2, h3, h4{
     margin-bottom: 20px;
   }
 }
+/* Cards */
 
 
-  /* Formulario
-  */
+/* Formulario */
 *{
   box-sizing: border-box;
 }
@@ -160,13 +167,14 @@ p, h2, h3, h4{
 .form-contact .voltar{
   margin-top: 10px;
 }
+/* Fim Formulario */
 
-/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in Hex
 .green-pallet-1-hex { color: #232323; }
 .green-pallet-2-hex { color: #141011; }
 .green-pallet-3-hex { color: #03A65A; }
 .green-pallet-4-hex { color: #168C55; }
-.green-pallet-5-hex { color: #074129; }
+.green-pallet-5-hex { color: #074129; } */
 
 /* Color Theme Swatches in Hex */
 .dark-n-green-1-hex { color: #6585FF; }
