@@ -3,7 +3,20 @@
     font-family: 'Baloo Tamma 2';
     color: #4FB3A2;
 }
-
+.menubar{
+  font-family: 'Baloo Tamma 2';
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  overflow: hidden;
+  background-color: #224540;
+  /*background-color: #333; #30544E */
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  border-radius: 10px;
+}
 body {
     font-size: 28px;
     background-color: #262626;
@@ -35,8 +48,8 @@ body {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  li a:hover {
+
+ li a:hover {
     background-color:  #0E473F;
   }
   
