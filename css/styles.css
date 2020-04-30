@@ -113,9 +113,8 @@ p{
 }
 
 .row .card-video{
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  padding: 5ch;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
