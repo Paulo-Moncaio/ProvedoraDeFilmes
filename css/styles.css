@@ -42,7 +42,6 @@ body {
   margin: 0em;
 }
 
-
   ul {
     font-family: 'Baloo Tamma 2';
     list-style-type: none;
@@ -84,6 +83,7 @@ h2, h3, h4{
 p{
   font-family: 'Baloo Tamma 2', cursive;
   color: #4FB3A2;
+  font-size: 99%;
 }
 
 /* Videos Series e Filmes */
@@ -91,8 +91,7 @@ p{
   text-align: center;
 }
 
-/* Hover Play Categoria */
-
+/* Hover botão de Play Categoria */
 
 /* Cards */
 .column{
@@ -111,7 +110,6 @@ p{
   display: table;
   clear: both;
 }
-
 .card img{
   width: 100%;
   height: 35vw;
@@ -129,20 +127,26 @@ p{
     margin-bottom: 20px;
   }
 }
-/* Poster e Sinopse series e filmes*/
+/* Container Poster e Sinopse */
 .container {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
-.posterSerie{
+.poster{
 position: relative;
 top: 0%;
-left: 5%;
+left: 2%;
 }
-.Sinopse{
+.posterImg{
+  width: 25vw;
+  height: 25vw;
+  object-fit: contain;
+}
+.sinopse{
 position: relative;
 top: 0%;
-left: 10%;
+left: 2%;
 right: 0%;
 }
 
