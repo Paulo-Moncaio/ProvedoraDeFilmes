@@ -126,6 +126,13 @@ p{
   }
 }
 
+/* Trio de Imagens series e filmes*/
+.ibagem {
+
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
 /* Banner */
 /* vermelho banner: #B00001 */
 .banner{
