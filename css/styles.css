@@ -109,9 +109,9 @@ p{
   width: 100%;
   height: 35vw;
 }
-
+/* Card Video Destaque */
 .row .card-video{
-  padding: 5ch;
+  padding-top: 5ch;
   text-align: center;
 }
 
