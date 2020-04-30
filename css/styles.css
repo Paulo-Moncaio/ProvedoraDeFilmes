@@ -1,3 +1,9 @@
+/* Geral */
+body {
+  font-size: 1.3em;
+  background-color: #262F3C;
+}
+
 .header{
     text-align: center;
     font-family: 'Baloo Tamma 2';
@@ -31,11 +37,6 @@
   margin: 0em;
 }
 
-/* Geral */
-body {
-    font-size: 1.3em;
-    background-color: #262F3C;
-  }
 
   ul {
     font-family: 'Baloo Tamma 2';
