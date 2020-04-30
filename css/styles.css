@@ -3,6 +3,15 @@
     font-family: 'Baloo Tamma 2';
     color: #4FB3A2;
 }
+/* Separador Horizontal */
+.hr {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #4FB3A2, transparent);
+  margin: 5vw;
+}
+
+/* Menubar */
  .menubar{
   font-family: 'Baloo Tamma 2';
   list-style-type: none;
@@ -16,8 +25,15 @@
   top: 0;
   border-radius: 10px;
 }
+
+/* H1 Cabecalho Neriflix */
+.header h1{
+  margin: 0em;
+}
+
+/* Geral */
 body {
-    font-size: 28px;
+    font-size: 1.3em;
     background-color: #262F3C;
   }
 
