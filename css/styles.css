@@ -83,15 +83,10 @@ p{
   color: #4FB3A2;
 }
 
-
-  /* Cores
-
-  #0E473F
-  #30615A
-  #1E9484
-  
-  */
-
+/* Videos Series e Filmes */
+.trailer{
+  text-align: center;
+}
 /* Cards */
 .column{
   float: left;
@@ -206,3 +201,11 @@ p{
 .dark-n-green-3-hex { color: #262F3C; }
 .dark-n-green-4-hex { color: #1EA789; }
 .dark-n-green-5-hex { color: #28D8B2; }
+
+  /* Cores
+
+  #0E473F
+  #30615A
+  #1E9484
+  
+  */
