@@ -153,7 +153,10 @@ p{
   padding-left: 1vw;
   margin-right: 75vw;
 }
-.banner button{
+.banner .button{
+  vertical-align: bottom;
+}
+.banner .button button{
   border: none;
   outline: 0;
   display: inline-block;
@@ -165,7 +168,8 @@ p{
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 24px;
 }
 
 /* Formulario */
