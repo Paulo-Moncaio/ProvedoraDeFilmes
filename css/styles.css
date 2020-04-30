@@ -112,21 +112,38 @@ p{
   height: 35vw;
 
 }
-/* Hover botão de Play Categoria */
 
-.card .img-top {
+/* botão de Play Categoria */
+.coluna-main-categoria .card button{
+  font-family: 'Baloo Tamma 2';
+  border: none;
+  outline: 0;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-left: 2vw;
+  color: #1EA789;
+  background-color: #224540;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 30%;
+  font-size: 1.6vw;
+  margin-left: 35%;
+  text-align: left;
+}
+
+/* .card .img-top{
   display: none;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 99;
-}
-.card:hover .img-top {
-  display: inline;
-}
+} */
 
-
-
+/* .card:hover .img-top {
+  display: inline; 
+} */
 
 
 /* Card Video Destaque */
@@ -149,6 +166,7 @@ p{
   align-items: center;
 }
 .poster{
+
 top: 0%;
 left: 2%;
 }
