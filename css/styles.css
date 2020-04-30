@@ -90,6 +90,10 @@ p{
 .trailer{
   text-align: center;
 }
+
+/* Hover Play Categoria */
+
+
 /* Cards */
 .column{
   float: left;
@@ -124,6 +128,22 @@ p{
     display: block;
     margin-bottom: 20px;
   }
+}
+/* Poster e Sinopse series e filmes*/
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.posterSerie{
+position: relative;
+top: 0%;
+left: 5%;
+}
+.Sinopse{
+position: relative;
+top: 0%;
+left: 10%;
+right: 0%;
 }
 
 /* Trio de Imagens series e filmes*/
