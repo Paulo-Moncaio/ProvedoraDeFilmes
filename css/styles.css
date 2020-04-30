@@ -113,10 +113,24 @@ p{
 
 }
 
-/* Hover botão de Play Categoria */
-.coluna-main-categoria .card:hover{
-  background-image: url('/image/icons-circle-play-icon.png');
-  opacity: 50%;
+/* botão de Play Categoria */
+.coluna-main-categoria .card button{
+  font-family: 'Baloo Tamma 2';
+  border: none;
+  outline: 0;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 5px 25px;
+  color: #1EA789;
+  background-color: #224540;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 30%;
+  font-size: 1.6vw;
+  margin-left: 35%;
+  text-align: left;
 }
 
 /* .card .img-top{
