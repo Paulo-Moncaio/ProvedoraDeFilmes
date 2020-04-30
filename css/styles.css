@@ -152,7 +152,7 @@ p{
 .banner .banner-text h1{
   text-align: left;
   padding: 1vw 1vw 0 1vw;
-  font-family: 'Baloo Tamma 2';;
+  font-family: 'Baloo Tamma 2';
   font-size: 1.2em;
 }
 .banner .container-text{
@@ -160,18 +160,16 @@ p{
   padding-left: 1vw;
   margin-right: 75vw;
 }
-.banner .button{
-  vertical-align: bottom;
-}
-.banner .button button{
+.banner button{
+  font-family: 'Baloo Tamma 2';
   border: none;
   outline: 0;
   display: inline-block;
   margin-left: 15px;
   margin-bottom: 15px;
   padding: 5px 25px;
-  color: #141011;
-  background-color: #ddd;
+  color: #1EA789;
+  background-color: #224540;
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
