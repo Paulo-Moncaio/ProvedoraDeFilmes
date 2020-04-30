@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+@import url('../css/Fonts/CrimesTimesSix.otf');
+
 /* Geral */
 body {
   margin: 0;
@@ -114,7 +117,6 @@ p{
   padding-top: 5ch;
   text-align: center;
 }
-
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -123,14 +125,39 @@ p{
     margin-bottom: 20px;
   }
 }
-/* Cards */
 
+/* Banner */
+/* vermelho banner: #B00001 */
+.banner{
+  margin: 0px 10px 10px 10px;
+  border-radius: 10px;
+  background-color: #B00001;
+  background-image: url("../image/paginaPrincipal/banner-o-mundo-sombrio-de-sabrina-netflix.jpg");
+  opacity: 85%;
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.banner:hover{
+  opacity: 100%;
+}
+.banner .banner-text h1{
+  text-align: left;
+  padding: 1vw 1vw 0 1vw;
+  font-family: 'Baloo Tamma 2';;
+  font-size: 1.2em;
+}
+.banner .container-text{
+  color: #141011;
+  padding-left: 1vw;
+  margin-right: 75vw;
+}
 
 /* Formulario */
 *{
   box-sizing: border-box;
 }
-
 .form-contact{
   
   font-family: 'Baloo Tamma 2', Roboto;
@@ -140,14 +167,12 @@ p{
   padding: 25px;
   margin: 20px auto;
 }
-
 .form-contact h1{
   font-size: 34px;
   color: #1EA789 ;
   padding-bottom: 20px;
   text-align: center;
 }
-
 .form-contact input[type="text"],
 .form-contact input[type="email"],
 .form-contact textarea{
@@ -161,12 +186,10 @@ p{
   background-repeat: no-repeat;
   background-position: 5px center;
 }
-
 .form-contact textarea{
   height: 150px;
   resize: none;
 }
-
 .form-contact .submit input,
 .form-contact .voltar a{
   color: #141011;
