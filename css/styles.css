@@ -112,21 +112,24 @@ p{
   height: 35vw;
 
 }
-/* Hover botão de Play Categoria */
 
-.card .img-top {
+/* Hover botão de Play Categoria */
+.coluna-main-categoria .card:hover{
+  background-image: url('/image/icons-circle-play-icon.png');
+  opacity: 50%;
+}
+
+/* .card .img-top{
   display: none;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 99;
-}
-.card:hover .img-top {
-  display: inline;
-}
+} */
 
-
-
+/* .card:hover .img-top {
+  display: inline; 
+} */
 
 
 /* Card Video Destaque */
