@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
-@import url('../css/Fonts/CrimesTimesSix.otf');
 
 /* Geral */
 body {
@@ -133,18 +132,6 @@ p{
   text-align: left;
 }
 
-/* .card .img-top{
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
-} */
-
-/* .card:hover .img-top {
-  display: inline; 
-} */
-
 
 /* Card Video Destaque */
 .row .card-video{
@@ -189,7 +176,6 @@ right: 0%;
   object-fit: contain;
 }
 /* Banner */
-/* vermelho banner: #B00001 */
 .banner{
   margin: 0px 10px 10px 10px;
   border-radius: 10px;
@@ -289,24 +275,9 @@ right: 0%;
 }
 /* Fim Formulario */
 
-/* Color Theme Swatches in Hex
-.green-pallet-1-hex { color: #232323; }
-.green-pallet-2-hex { color: #141011; }
-.green-pallet-3-hex { color: #03A65A; }
-.green-pallet-4-hex { color: #168C55; }
-.green-pallet-5-hex { color: #074129; } */
-
 /* Color Theme Swatches in Hex */
 .dark-n-green-1-hex { color: #6585FF; }
 .dark-n-green-2-hex { color: #32373E; }
 .dark-n-green-3-hex { color: #262F3C; }
 .dark-n-green-4-hex { color: #1EA789; }
 .dark-n-green-5-hex { color: #28D8B2; }
-
-  /* Cores
-
-  #0E473F
-  #30615A
-  #1E9484
-  
-  */
