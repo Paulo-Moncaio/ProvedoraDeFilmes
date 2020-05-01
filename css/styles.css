@@ -121,7 +121,11 @@ p{
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 15px;
+<<<<<<< HEAD
   padding-left: 2vw;
+=======
+  padding: 5px 25px;
+>>>>>>> parent of a76194c... gdgbb
   color: #1EA789;
   background-color: #224540;
   border-radius: 5px;
